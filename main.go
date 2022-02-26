@@ -3,7 +3,8 @@ package main
 //tutorials : https://golangbot.com/concurrency/
 import (
 	"fmt"
-	_ "learngo/basic"
+
+	_ "github.com/arvinzhao001/learngo/basic"
 )
 
 func init() {

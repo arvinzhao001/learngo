@@ -1,4 +1,4 @@
-module learngo
+module github.com/arvinzhao001/learngo
 
 go 1.17
 
