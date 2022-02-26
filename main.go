@@ -1,11 +1,12 @@
 package main
 
 //tutorials : https://golangbot.com/concurrency/
+//Go module : https://roberto.selbach.ca/intro-to-go-modules/
 import (
 	"fmt"
 
-	"github.com/arvinzhao001/learngo/basic"
 	"github.com/arvinzhao001/learngo/lib/copier"
+	"github.com/arvinzhao001/learngo/lib/secret"
 )
 
 func init() {
@@ -14,5 +15,5 @@ func init() {
 
 func main() {
 	copier.TestCopier()
-	basic.TestScrypt()
+	secret.TestScrypt()
 }
