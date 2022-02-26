@@ -2,9 +2,10 @@ package basic
 
 import (
 	"fmt"
-	"learngo/interest"
 	"log"
 	"testing"
+
+	"github.com/arvinzhao001/learngo/basic/interest"
 )
 
 var p, r, t = 5000.0, 10.0, 1.0
