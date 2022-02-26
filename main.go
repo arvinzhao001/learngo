@@ -4,7 +4,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/arvinzhao001/learngo/basic"
+	"github.com/arvinzhao001/learngo/basic"
+	"github.com/arvinzhao001/learngo/lib/copier"
 )
 
 func init() {
@@ -12,5 +13,6 @@ func init() {
 }
 
 func main() {
-
+	copier.TestCopier()
+	basic.TestScrypt()
 }

@@ -2,7 +2,6 @@ package copier
 
 import (
 	"fmt"
-	"testing"
 
 	"github.com/jinzhu/copier"
 )
@@ -42,7 +41,7 @@ func (employee *Employee) Role(role string) {
 	employee.SuperRole = "Super " + role
 }
 
-func TestCopier(t *testing.T) {
+func TestCopier() {
 	var (
 		user      = User{Name: "Jinzhu", Age: 18, Role: "Admin", EmployeCode: 10000, Salary: 200000}
 		users     = []User{{Name: "Jinzhu", Age: 18, Role: "Admin", Salary: 100000}, {Name: "jinzhu 2", Age: 30, Role: "Dev", Salary: 60000}}
